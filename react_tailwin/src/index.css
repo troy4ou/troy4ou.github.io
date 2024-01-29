@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn_primary {
+    @apply w-32
+    h-10
+    my-4
+    mx-10
+    rounded-xl
+    bg-chicago-50
+     border-b-2
+      font-bold
+       border-b-chicago-700
+        cursor-pointer
+        text-xs
+        text-black 
+        transition duration-500 ease-in-out hover:bg-chicago-400;
+  }
+}
